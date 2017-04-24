@@ -1,0 +1,65 @@
+{
+    "author": "tschrock123@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pebble-modules",
+    "pebble": {
+        "displayName": "Pebble-Modules",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/Clock font",
+                    "name": "TS_CLOCK_FONT_42",
+                    "type": "font"
+                },
+                {
+                    "file": "images/Battery sprites (BaW)",
+                    "name": "TS_INDICATOR_BATTERY",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/Battery sprites (Color)",
+                    "name": "TS_INDICATOR_BATTERY",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Bluetooth sprites (BaW)",
+                    "name": "TS_INDICATOR_BLUETOOTH",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/Bluetooth sprites (Color)",
+                    "name": "TS_INDICATOR_BLUETOOTH",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "716688e7-7203-4f5b-919f-00ea7dfe1f38",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
